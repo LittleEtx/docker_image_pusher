@@ -1,6 +1,7 @@
 nginx
 alpine
 codercom/code-server
+gcr.io/k8s-minikube/kicbase:v0.0.45
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
