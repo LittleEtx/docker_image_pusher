@@ -3,6 +3,16 @@ alpine
 codercom/code-server
 gcr.io/k8s-minikube/kicbase:v0.0.45
 node
+registry
+
+# K8s 相关
+registry.k8s.io/kube-apiserver:v1.31.3
+registry.k8s.io/kube-controller-manager:v1.31.3
+registry.k8s.io/kube-scheduler:v1.31.3
+registry.k8s.io/kube-proxy:v1.31.3
+registry.k8s.io/coredns/coredns:v1.11.3
+registry.k8s.io/pause:3.10
+registry.k8s.io/etcd:3.5.15-0
 
 #支持私库
 k8s.gcr.io/kube-state-metrics/kube-state-metrics:v2.0.0
