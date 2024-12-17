@@ -1,3 +1,9 @@
+# kube-ovn
+kubeovn/kube-ovn-dpdk:19.11
+kubeovn/kube-ovn:v1.13.2-dpdk
+kubeovn/kube-ovn:v1.13.2
+kubeovn/vpc-nat-gateway:v1.13.2
+
 nginx
 alpine
 codercom/code-server
@@ -18,11 +24,7 @@ registry.k8s.io/etcd:3.5.15-0
 docker.io/flannel/flannel:v0.26.2
 docker.io/flannel/flannel-cni-plugin:v1.6.0-flannel1
 
-# kube-ovn
-kubeovn/kube-ovn:v1.13.2
-kubeovn/vpc-nat-gateway:v1.13.2
-kubeovn/kube-ovn-dpdk:19.11-v1.13.2
-kubeovn/kube-ovn:v1.13.2-dpdk
+
 
 
 #支持私库
